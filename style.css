@@ -48,6 +48,7 @@ main{
     background-color:#fff;
     padding: 30px;
     margin-top: 21px;
+    border-radius: 5px;
 }
 .top{
     color: #562EFF;
