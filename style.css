@@ -1,15 +1,46 @@
 *{
     margin: 0;
     padding: 0;
+}
+body{
     background: #F3F1FF;
     font-family: 'Poppins', sans-serif;
 }
+/* manu start */
+nav{
+    background: #562EFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 94px;
+}
+.n_image{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.n_image h1{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+nav img{
+    width: 40px;
+    border-radius: 50px;
+}
+.manu ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style-type: none;
+    color: #FFFFFF;
+}
+/* manu end */
 /* top-players start */
 main{
     display: flex;
     flex-direction: column;
     align-items: center;   
-    
 }
 .container{
     width: 870px;
@@ -20,7 +51,7 @@ main{
 .top{
     color: #562EFF;
     font-size: 24px;
-    margin: 35px 0px 40px;
+    margin: 20px 0px 20px;
 }
 .wapper{
     display:grid;
@@ -34,9 +65,7 @@ main{
     gap: 16px;
 }
 .player img{
-    width: 56px
-    
-    
+    width: 56px    
 }
 .player h2{
     font-size: 18px;
@@ -76,3 +105,53 @@ width: 200px;
     text-decoration: none;
 }
 /* top blog end */
+
+/* top lates start */
+.wapper3{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.lates{
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow:  0 .5rem 1rem rgba(0,0,0,.15);
+}
+.lates img{
+    width: 266px;
+}
+.l_text h1{
+    font-size: 20px;
+}
+.l_text p{
+    font-size: 18px;
+    color: #ED6B4F;
+    margin: 10px 0px 10px;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.star{
+    color: #FFC014;
+}
+.star i:last-child {
+    color: #AEAEAE;
+}
+span{
+    color: #A2A2A2;;
+}
+.l_text a{
+    text-decoration: none;
+    background: #FFE4E8;
+    color: #FF4A60;
+    border-radius: 14.691px;
+    padding: 2px 5px;
+}
+
+/* top lates end */
+
+
+
+
