@@ -42,6 +42,9 @@ nav img{
     text-decoration: none;
     color: #FFFFFF;
 }
+.manu ul li a:hover{
+    color: #FF5733 ;
+}
 /* manu end */
 /* top-players start */
 main{
