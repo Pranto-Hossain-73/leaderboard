@@ -1,16 +1,101 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    nav {
+        height: 70px;
+    }
+    .n_image {
+        gap: 5px;
+    }
+    nav img {
+        width: 25px;
+    }
+    .manu ul {
+      gap: 5px;
+      font-size: 16px;
+      display: flex;
+      align-items: flex-start;
+}
+    
+    .n_image h1 {
+        font-size: 20px;
+    }
+    .container{
+        width: 89%;
+        margin-top: 95px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .top {
+        margin: 10px 0px 10px;
+    }
+    .wapper{
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    }
+    .player h2{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+    }
+    .wapper2{
+        grid-template-columns: repeat(1,1fr);
+        padding: 14px;
+        gap: 30px;
+        }
+    
+    .blog {
+        gap: 10px;
+        flex-direction: column;
+    }
 
+    .blog img {
+        width: 100%;
+    }
+    .blog h1 {
+        font-size: 20px;
+    }
+    .wapper3{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }
+    .container2{
+        width: 89%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lates {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .l_text{
+        margin-top: 25px;
+    }
+    .lates img {
+        width: 100%;
+    }
+    .l_text h1{
+        font-size: 20px;
+    }
+    .icon {
+        justify-content: flex-start;
+        gap: 10px;
+    }
+    .l_text a {
+        padding: 3px 10px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
     nav {
-        gap: 40px;
         height: 70px;
     }
     .container{
-        width: 100%;
+        width: 89%;
         margin-top: 95px;
         display: flex;
         flex-direction: column;
@@ -43,7 +128,7 @@
         gap: 10px;
     }
     .container2{
-        width: 100%;
+        width: 89%;
         display: flex;
         flex-direction: column;
         align-items: center;
