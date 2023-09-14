@@ -103,7 +103,6 @@ font-size: 20px;
 .blog h1{
     color: #000;
 font-size: 20px;
-width: 200px;
 }
 .blog span{
     color: #9F9F9F;
@@ -126,9 +125,7 @@ width: 200px;
     display:grid;
     grid-template-columns: repeat(3,1fr);
     gap: 10px;
-    
 }
-
 .lates{
     padding: 10px;
     border-radius: 10px;

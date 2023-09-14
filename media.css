@@ -1,0 +1,140 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    nav {
+        gap: 40px;
+        height: 70px;
+    }
+    .container{
+        width: 100%;
+        margin-top: 95px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .top {
+        margin: 10px 0px 10px;
+    }
+.wapper{
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    }  
+    .wapper2{
+        padding: 14px;
+        gap: 15px;
+        }
+    
+    .blog {
+        gap: 15px;
+    }
+    .blog img {
+        width: 85px;
+    }
+    .blog h1 {
+        font-size: 16px;
+    }
+    .wapper3{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }
+    .container2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lates {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .l_text{
+        margin-top: 25px;
+    }
+    .lates img {
+        width: 100%;
+    }
+    .l_text h1{
+        font-size: 25px;
+    }
+    .icon {
+        justify-content: flex-start;
+        gap: 10px;
+    }
+    .l_text a {
+        padding: 3px 10px;
+    }
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .container {
+        width: 570px;
+        padding: 15px 30px;
+    }
+    .top {
+        margin: 10px 0px 10px;
+    }
+.wapper{
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    }  
+    .wapper2{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 29px;
+        margin-top: 10px;
+    }
+    .blog img {
+        width: 85px;
+    }
+    .blog h1 {
+        font-size: 16px;
+    }
+    .wapper3{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }
+    .container2  {
+        width: 570px;
+        padding: 15px 30px;
+    }
+    .lates {
+        width: auto;
+    }
+    .lates img {
+        width: 548px;
+    }
+    .l_text h1 {
+        font-size: 25px;
+    }
+    .icon {
+        justify-content: flex-start;
+        gap: 10px;
+    }
+    .l_text a {
+        padding: 3px 10px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+ 
+  
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1399.98px){
+
+
+}
+ /* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+ 
+}
