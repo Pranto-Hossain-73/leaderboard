@@ -134,6 +134,7 @@ font-size: 20px;
 }
 .lates:hover{
     transform :scale(0.9);
+    box-shadow:  0 .5rem 1rem rgb(85, 146, 14);
 }
 .lates img{
     width: 266px;
